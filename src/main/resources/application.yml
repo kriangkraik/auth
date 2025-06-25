@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: auth
+  security:
+    user:
+      name: admin
+      password: 123456
+    enabled: true
+
+server:
+  port: 8081
+
+jwt:
+    secret: "36pvv%k^u=4hy&%3-8yjj7ol3et5%2&cj8zd&b-!jppyf3ibr%"
+    privateKey: <base64_encoded_private_key>
+    publicKey: <base64_encoded_public_key>
