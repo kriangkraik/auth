@@ -49,7 +49,7 @@ public class GenerateKeyUtil {
 
     private static KeyPair generateKeyPair() throws NoSuchAlgorithmException {
         KeyPairGenerator generator = KeyPairGenerator.getInstance("RSA");
-        generator.initialize(2048);
+        generator.initialize(4096);
         return generator.generateKeyPair();
     }
 
